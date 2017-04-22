@@ -17,7 +17,7 @@ height: 100%;
     
 
     
-@media screen and (max-width: 767px) 
+
 
 {
 .sidebar 
@@ -58,6 +58,13 @@ img[alt*="LatteeBiscotti"]
     font-family:cursive;
     font-style:italic;
     font-weight: bold;
+}
+
+.dropdown 
+
+{
+    position: relative;
+    display: inline-block;
 }
 
 /*All webpages*/
