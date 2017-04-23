@@ -1,0 +1,420 @@
+/*
+Latte e Biscotti color scheme:
+color1 green: #5c7d35
+color2 beige: #e6e6bf
+*/
+
+/* Main Primary color1 green */
+.color1-pri-0 { color: #5C7D35 }
+.color1-pri-1 { color: #A5C381 }
+.color1-pri-2 { color: #7C9F53 }
+.color1-pri-3 { color: #45671D }
+.color1-pri-4 { color: #2A4609 }
+/* Main Secondary color1 (1) */
+.color1-sec-1-0 { color: #8A4B3A }	
+.color1-sec-1-1 { color: #D79E8F }
+.color1-sec-1-2 { color: #AF6D5B }
+.color1-sec-1-3 { color: #723120 }
+.color1-sec-1-4 { color: #4D1809 }
+/* Main Secondary color1 (2) */
+.color1-sec-2-0 { color: #53285B }	
+.color1-sec-2-1 { color: #865F8D }
+.color1-sec-2-2 { color: #6B3D73 }
+.color1-sec-2-3 { color: #43164B }
+.color1-sec-2-4 { color: #2C0733 }
+/* Main Primary color2 beige */
+.color2-pri-0 { color: #E6E6BF }	
+.color2-pri-1 { color: #FFFFF9 }
+.color2-pri-2 { color: #FFFFEA }
+.color2-pri-3 { color: #C4C48D }
+.color2-pri-4 { color: #A5A562 }
+
+
+/*Structure of the page and menu*/
+
+body{
+	background-color: #E6E6BF
+}
+
+/*
+.navbar {
+	margin-bottom: 0;
+	border-radius: 0;
+}
+
+.row.content {
+	height: 400px;
+}
+
+.sidebar {
+	padding-top: 20px;
+	background-color: #f1f1f1;
+	height: 100%;
+}
+
+@media screen and (max-width: 767px) {
+	.sidebar {
+		height: auto;
+		padding: 15px;
+	}
+	.row.content {
+		height: auto;
+	}
+}
+
+#header {
+	font-size: 15px;
+	background-color: white;
+	text-align: center;
+	font-family: cursive;
+	color: black;
+}
+
+img[alt*="LatteeBiscotti"] {
+	width: 10%;
+	text-align: center;
+}
+
+#Logo {
+	font-size: 15px;
+	text-align: center;
+	font-family: cursive;
+	font-weight: bold;
+}
+
+#MadeinItaly {
+	font-size: 13px;
+	text-align: center;
+	font-family: cursive;
+	font-style: italic;
+	font-weight: bold;
+}
+
+*/
+
+/*All webpages*/
+
+/*
+
+.titlepresentation {
+	font-size: 20px;
+	text-align: left;
+	font-family: cursive;
+	text-align: center;
+}
+
+#aboutus {
+	text-align: justify;
+}
+
+a:link {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+#footerlink {
+	text-align: center;
+	color: black;
+}
+
+.social {
+	text-align: center;
+	color: black;
+}
+
+#customerarea {
+	font-size: 15px;
+}
+
+#retailerarea {
+	font-size: 15px;
+}
+
+.intro-message {
+	text-align: center;
+}
+
+.network-name {
+	font-size: 14px;
+}
+
+.CustomerSignin {
+	text-align: left;
+}
+
+.RetailerSignin {
+	font-weight: bold
+}
+
+*/
+
+/*Our Team*/
+
+
+/*
+
+img[alt*="photobarbara"] {
+	width: 80px;
+	height: 80px;
+}
+
+img[alt*="photocipriani"] {
+	width: 80px;
+	height: 80px;
+}
+
+*/
+
+/*Our Story*/
+
+/*
+* {
+	box-sizing: border-box
+}
+
+.slideshow-container {
+	max-width: 500px;
+	position: relative;
+	margin: auto;
+	align-content: center;
+}
+
+.mySlides {
+	display: none;
+}
+
+.prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+	border-radius: 0 3px 3px 0;
+}
+
+.next {
+	right: 0;
+	border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover {
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.dot {
+	cursor: pointer;
+	height: 13px;
+	width: 13px;
+	margin: 0 2px;
+	background-color: #bbb;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+	background-color: #717171;
+}
+
+.fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 3s;
+	animation-name: fade;
+	animation-duration: 3s;
+}
+
+@-webkit-keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+@keyframes fade {
+	from {
+		opacity: .4
+	}
+	to {
+		opacity: 1
+	}
+}
+
+
+.slideshow-container {
+	align-content: center;
+}
+
+*/
+
+/*End User and Retailers Terms and Conditions*/
+
+/*
+.accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	padding: 5px;
+	width: 100%;
+	border: none;
+	text-align: left;
+	outline: none;
+	font-size: 15px;
+	transition: 0.4s;
+}
+
+.accordion.active, button.accordion:hover {
+	background-color: #ddd;
+}
+
+.accordion:after {
+	content: '\002B';
+	color: #777;
+	font-weight: bold;
+	float: right;
+	margin-left: 5px;
+}
+
+.accordion.active:after {
+	content: "\2212";
+}
+
+.panel {
+	padding: 0 18px;
+	background-color: white;
+	max-height: 0;
+	overflow: hidden;
+	transition: max-height 0.2s ease-out;
+}
+
+#googleMap {
+    align-items: center;
+	margin-bottom: -60px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 10px;
+}
+
+*/
+
+/*ourmainpagecollections*/
+
+/*
+img[alt*="lattebiscottimain"] {
+	width: 175px;
+	height: 150px;
+	align-content: center;
+}
+
+.ourcollections {
+	text-align:center;
+}
+
+*/
+
+/*Baby Collection Page*/
+
+/*
+img[alt*="lattebiscottibaby"] {
+	width: 100px;
+	height: 100px;
+}
+
+.thumbnail {
+	width: 170px;
+	height: 170px;
+	font-size: 12px;
+	border: none;
+}
+
+.caption {
+	text-align: center;
+}
+
+*/
+
+/* Style The Dropdown Button */
+
+/*
+.dropbtn {
+	background-color: #222222;
+	color: ghostwhite;
+	padding: 10px;
+	font-size: 14px;
+	border: none;
+	cursor: pointer;
+}
+
+*/
+
+/* The container <div> - needed to position the dropdown content */
+
+/*
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+*/
+
+/* Dropdown Content (Hidden by Default) */
+
+/*
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 110px;
+	box-shadow: 0px 7px 10px 0px rgba(0, 0, 0, 0.2);
+	z-index: 1;
+}
+
+*/
+/* Links inside the dropdown */
+
+
+/*
+.dropdown-content a {
+	color: black;
+	padding: 6px 6px;
+	text-decoration: none;
+	display: block;
+}
+
+*/
+
+/* Change color of dropdown links on hover */
+
+/*
+.dropdown-content a:hover {
+	background-color: ghostwhite;
+}
+
+*/
+
+/* Show the dropdown menu on hover */
+
+/*
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+*/
+/* Change the background color of the dropdown button when the dropdown content is shown */
+
+/*
+.dropdown:hover .dropbtn {
+	background-color: #222222;
+}
+
+*/
