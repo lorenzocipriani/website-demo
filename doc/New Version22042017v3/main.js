@@ -1,3 +1,6 @@
+
+/*@Author : W3 schools. 2017. How TO - Collapsibles/Accordion. [Online] Available : https://www.w3schools.com/howto/howto_js_accordion.asp [Last accessed 22nd April2017]
+*/
 var acc = document.getElementsByClassName("accordion");
 var i;
 
@@ -13,7 +16,8 @@ for (i = 0; i < acc.length; i++) {
   }
 }
 
-
+/*@Author: W3 schools.W3.CSS Slideshow.2017.[Online] Available : https://www.w3schools.com/w3css/w3css_slideshow.asp [Last accessed April 2017]
+*/
 var slideIndex = 0;
 showSlides();
 
@@ -30,10 +34,4 @@ function showSlides() {
 }
 
 
-function myMap() {
-var mapProp= {
-    center:new google.maps.LatLng(51.508742,-0.120850),
-    zoom:5,
-};
-var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
+
