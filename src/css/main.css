@@ -32,8 +32,22 @@ color2 beige: #e6e6bf
 
 /*Structure of the page and menu*/
 
-body{
-	background-color: #E6E6BF
+body
+{
+	background-color: #E6E6BF;
+	background-image: url("../img/bglogo10.svg");
+	background-size: cover;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.navbar
+{
+	height: 2em;
+}
+
+ul.nav
+{
+	height: 2em;
 }
 
 /*

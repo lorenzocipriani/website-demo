@@ -205,68 +205,11 @@ img[alt*="photocipriani"] {
 	}
 }
 
-#image1 {
-	width: 400px;
-	height: 300px;
+.slideshow-container img
+{
 	align-content: center;
-	margin-left: 50px;
-	margin-right: 1px;
-}
-
-#image2 {
-	width: 400px;
-	height: 300px;
-	align-items: center;
-	margin-left: 50px;
-	margin-right: 1px;
-}
-
-#image4 {
-	width: 400px;
-	height: 300px;
-	align-content: center;
-	margin-left: 50px;
-	margin-right: 1px;
-}
-
-#image3 {
-	width: 400px;
-	height: 300px;
-	align-content: center;
-	margin-left: 50px;
-	margin-right: 1px;
-}
-
-#image4 {
-	width: 400px;
-	height: 300px;
-	align-content: center;
-	margin-left: 50px;
-	margin-right: 1px;
-}
-
-#image5 {
-	width: 400px;
-	height: 300px;
-	align-content: center;
-	margin-left: 50px;
-	margin-right: 1px;
-}
-
-#image6 {
-	width: 400px;
-	height: 300px;
-	align-content: center;
-	margin-left: 50px;
-	margin-right: 1px;
-}
-
-#image7 {
-	width: 400px;
-	height: 300px;
-	align-content: center;
-	margin-left: 50px;
-	margin-right: 1px;
+	height: auto;
+	width: 98%;
 }
 
 .slideshow-container {
