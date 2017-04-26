@@ -64,14 +64,40 @@ body
 	font-family: 'Montserrat', sans-serif;
 }
 
-.navbar
+.navbar-inverse
 {
-	height: 2em;
+	background-color: #E6E6BF;
+	border-color: #E6E6BF;
 }
 
-ul.nav
+.navbar-inverse .navbar-nav > li > a
 {
-	height: 2em;
+	color: #5C7D35;
+}
+
+.navbar-inverse .navbar-nav > li > a:focus, .navbar-inverse .navbar-nav > li > a:hover
+{
+	color: #53285B;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a
+{
+	color: #5C7D35;
+}
+
+.navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover
+{
+	color: #53285B;
+}
+
+.navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:focus, .navbar-inverse .navbar-nav > .active > a:hover
+{
+	background-color: #5C7D35;
+}
+
+.navbar .glyphicon
+{
+	color: #865F8D;
 }
 
 footer
