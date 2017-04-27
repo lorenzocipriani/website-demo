@@ -115,6 +115,19 @@ footer
 .fa-facebook {color:#3b5998;}
 .fa-pinterest {color:#bd081c;}
 
+/* Contents */
+.content h3
+{
+	color: #53285B
+}
+
+
+.content p
+{
+	color: #45671D;
+	text-align: left
+}
+
 /* Specific single items */
 #intro
 {
